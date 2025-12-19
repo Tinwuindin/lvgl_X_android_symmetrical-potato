@@ -1,0 +1,1 @@
+-isystem "F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc" -isystem "F:/Proyectos Git/lvgl_X_android_symmetrical-potato/lvgl" -isystem "F:/Proyectos Git/lvgl_X_android_symmetrical-potato/lvgl/demos" -isystem "F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build" -isystem "F:/Proyectos Git/lvgl_X_android_symmetrical-potato/lvgl/examples"

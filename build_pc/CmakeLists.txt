@@ -1,0 +1,32 @@
+cmake_minimum_required(VERSION 3.10)
+project(MiAppPC C)
+
+set(CMAKE_C_STANDARD 99)
+
+# Rutas
+set(ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/..)
+set(LVGL_DIR ${ROOT_DIR}/lvgl)
+
+# LVGL
+add_subdirectory(${LVGL_DIR} lvgl_build)
+
+# SDL2 (vcpkg)
+find_package(SDL2 CONFIG REQUIRED)
+
+# Ejecutable
+add_executable(MiAppPC
+    main_pc.c
+    ${ROOT_DIR}/src_shared/ui.c
+    ${ROOT_DIR}/drivers_sdl/sdl_drv.c
+)
+
+# Includes de tu proyecto
+target_include_directories(MiAppPC PRIVATE
+    ${ROOT_DIR}
+)
+
+# Link correcto
+target_link_libraries(MiAppPC
+    lvgl
+    SDL2::SDL2
+)

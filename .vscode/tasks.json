@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "CMake Configure",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-S", "build_pc",      // <--- CAMBIO AQUÍ: Busca en la carpeta build_pc
+                "-B", "build_pc",      // Genera los archivos basura también en build_pc
+                "-G", "MinGW Makefiles"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "CMake Build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build", "build_pc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": "CMake Configure",
+            "problemMatcher": "$gcc"
+        }
+    ]
+}

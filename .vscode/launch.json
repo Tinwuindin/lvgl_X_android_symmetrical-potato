@@ -1,0 +1,41 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Depurar LVGL (PC)",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/build_pc/MiAppPC.exe",
+            "args": [],
+            "stopAtEntry": false,
+
+            // IMPORTANTE: usar el directorio de build
+            "cwd": "${workspaceFolder}/build_pc",
+
+            // Variables de entorno (clave para SDL2)
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "C:/msys64/mingw64/bin;${env:PATH}"
+                }
+            ],
+
+            "externalConsole": false,
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
+
+            "setupCommands": [
+                {
+                    "description": "Habilitar pretty printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+
+            // Compilar antes de ejecutar
+            "preLaunchTask": "CMake Build"
+        }
+    ]
+}

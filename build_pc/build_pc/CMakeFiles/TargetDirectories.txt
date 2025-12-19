@@ -1,0 +1,17 @@
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/MiAppPC.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/edit_cache.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/rebuild_cache.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/list_install_components.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/install.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/install/local.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/CMakeFiles/install/strip.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/lvgl.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/lvgl_thorvg.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/lvgl_examples.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/lvgl_demos.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/edit_cache.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/rebuild_cache.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/list_install_components.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/install.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/install/local.dir
+F:/Proyectos Git/lvgl_X_android_symmetrical-potato/build_pc/build_pc/lvgl_build/CMakeFiles/install/strip.dir
